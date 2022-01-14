@@ -8,7 +8,6 @@ body {
 	height: 100vh;
 	background-color: #23252c;
 	height: 550px;
-	width: 879px;
 }
 
 #root {
@@ -120,4 +119,19 @@ body {
 .interests__paragraph {
 	font-size: 10px;
 	line-height: 15px;
+}
+
+.footer {
+	height: 64px;
+	background-color: #d5d4d8;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.footer__icons {
+	height: 100%;
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+	align-items: center;
 }
