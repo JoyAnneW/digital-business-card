@@ -15,14 +15,18 @@ export default function Info() {
 			</div>
 
 			<div className="info__block--btns">
-				<button className="btn email-btn">
-					<a href="mailto:laura@afh83jknl.com"> Email</a>
-				</button>
-				<button className="btn linkedin-btn">
-					<a href="https://www.linkedin.com" target_blank>
-						LinkedIn
-					</a>
-				</button>
+				<a className="btn email-btn" href="mailto:laura@afh83jknl.com">
+					{" "}
+					<i class="fas fa-envelope"></i>Email
+				</a>
+
+				<a
+					className="btn linkedin-btn"
+					href="https://www.linkedin.com"
+					target_blank
+				>
+					<i class="fab fa-linkedin"></i>LinkedIn
+				</a>
 			</div>
 		</div>
 	);
