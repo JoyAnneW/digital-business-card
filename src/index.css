@@ -5,12 +5,26 @@
 }
 body {
 	font-family: "Inter", sans-serif;
+	height: 100vh;
+	background-color: #23252c;
+	height: 550px;
+	width: 879px;
+}
+
+#root {
+	margin: 45px auto;
+	background-color: red;
+	width: 317px;
+	background-color: #f5f5f5;
+	border-radius: 15px;
 }
 
 .info__img {
 	width: 317px;
 	display: block;
 	margin: 0 auto;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 .info__block--text {
 	display: flex;
@@ -92,9 +106,18 @@ body {
 	margin: 9px;
 }
 
-/* 
-
-	
-
-	.info
- */
+.container {
+	max-width: 250px;
+	margin: 25px auto;
+}
+.title {
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.about__paragraph,
+.interests__paragraph {
+	font-size: 10px;
+	line-height: 15px;
+}
